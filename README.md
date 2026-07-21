@@ -1,4 +1,4 @@
-# IBM_AI-workflow-Capstone-project-
+# IBM_AI-workflow-Capstone-project-90-day revenue forecasting engine
 An enterprise 90-day revenue forecasting engine using Random Forest regression, a Flask REST API backend, an interactive Streamlit UI, and local LLM executive summaries via Ollama.
 
 * **Frontend:** Streamlit[cite: 2], Pandas
