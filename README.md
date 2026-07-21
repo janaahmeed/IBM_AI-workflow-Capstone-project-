@@ -3,6 +3,8 @@ An enterprise 90-day revenue forecasting engine using Random Forest regression, 
 
 * **Frontend:** Streamlit[cite: 2], Pandas
 * **Backend API:** Flask[cite: 1], Requests[cite: 2]
+* **Unit testing & logging file for mintoring Model performance  **
+* ** Data fetching ,EDA , feature engineering & lagged features **
 * **Machine Learning:** Scikit-Learn (`RandomForestRegressor`[cite: 1]  , `TimeSeriesSplit`[cite: 1]), NumPy
 * **AI Synthesis:** Ollama (`llama3`) with automated fallback strings[cite: 1]
 
