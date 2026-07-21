@@ -15,7 +15,7 @@ An enterprise 90-day revenue forecasting engine using Random Forest regression, 
 ```text
 ├── app_core_logging.py    # Flask REST API, model training pipeline, feature engineering, and LLM synthesis
 ├── app_ui.py              # Streamlit user interface and interactive data visualization
-├── requirements.txt       # Project dependencies
+├── test_suite .py 
 └── README.md              # Project documentation
 #machine-learning #time-series-forecasting #random-forest #flask #streamlit #ollama #python #data-science
 ## API Endpoint Reference
