@@ -1,0 +1,361 @@
+2026-07-20 19:54:08,361 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 19:54:10,105 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 19:54:10,105 - INFO - Starting feature engineering pipeline...
+2026-07-20 19:54:10,520 - INFO - Feature engineering complete.
+2026-07-20 19:58:25,359 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 19:58:26,897 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 19:58:26,898 - INFO - Starting feature engineering pipeline...
+2026-07-20 19:58:27,278 - INFO - Feature engineering complete.
+2026-07-20 19:58:27,282 - INFO - Training production RandomForestRegressor model...
+2026-07-20 19:58:32,522 - INFO - Model trained successfully and set to global variable.
+2026-07-20 19:58:32,671 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2026-07-20 19:58:32,671 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:07:18,311 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:07:19,853 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:07:19,853 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:07:20,242 - INFO - Feature engineering complete.
+2026-07-20 20:07:20,246 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:08:46,003 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:08:47,484 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:08:47,485 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:08:47,861 - INFO - Feature engineering complete.
+2026-07-20 20:08:47,865 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:28:05,098 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:28:06,691 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:28:06,691 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:28:07,098 - INFO - Feature engineering complete.
+2026-07-20 20:28:07,102 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:28:12,353 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_202812.json
+2026-07-20 20:29:20,216 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:29:21,727 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:29:21,727 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:29:22,083 - INFO - Feature engineering complete.
+2026-07-20 20:29:22,087 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:29:27,012 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_202927.json
+2026-07-20 20:29:27,012 - INFO - Model trained successfully and set to global variable.
+2026-07-20 20:29:27,021 - ERROR - API Call failed: Model has not been trained yet.
+2026-07-20 20:31:31,074 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:31:32,612 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:31:32,612 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:31:32,997 - INFO - Feature engineering complete.
+2026-07-20 20:31:33,001 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:41:35,148 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:41:36,518 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:41:36,518 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:41:36,930 - INFO - Feature engineering complete.
+2026-07-20 20:41:36,935 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:41:42,475 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_204142.json
+2026-07-20 20:41:42,476 - INFO - Model trained successfully and set to global variable.
+2026-07-20 20:41:42,530 - ERROR - API Call failed: Model has not been trained yet.
+2026-07-20 20:44:42,142 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:44:43,641 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:44:43,641 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:44:44,037 - INFO - Feature engineering complete.
+2026-07-20 20:44:44,041 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:44:49,876 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_204449.json
+2026-07-20 20:44:49,876 - INFO - Model trained successfully and set to global variable.
+2026-07-20 20:44:49,919 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2026-07-20 20:44:49,919 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:45:26,533 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:45:28,039 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:45:28,039 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:45:28,470 - INFO - Feature engineering complete.
+2026-07-20 20:45:28,474 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:45:48,611 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_204548.json
+2026-07-20 20:45:48,611 - INFO - Model trained successfully and set to global variable.
+2026-07-20 20:45:48,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2026-07-20 20:45:48,675 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:52:55,915 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:52:57,249 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:52:57,249 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:52:57,603 - INFO - Feature engineering complete.
+2026-07-20 20:52:57,610 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:53:11,640 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_205311.json
+2026-07-20 20:53:11,640 - INFO - Model trained successfully and set to global variable.
+2026-07-20 20:53:11,687 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2026-07-20 20:53:11,687 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:55:06,049 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:55:07,445 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:55:07,445 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:55:07,899 - INFO - Feature engineering complete.
+2026-07-20 20:55:07,904 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:55:21,906 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_205521.json
+2026-07-20 20:55:21,907 - INFO - Model trained successfully and set to global variable.
+2026-07-20 20:56:49,101 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 20:56:50,514 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 20:56:50,514 - INFO - Starting feature engineering pipeline...
+2026-07-20 20:56:50,852 - INFO - Feature engineering complete.
+2026-07-20 20:56:50,856 - INFO - Training production RandomForestRegressor model...
+2026-07-20 20:57:04,946 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_205704.json
+2026-07-20 20:57:04,946 - INFO - Model trained successfully and set to global variable.
+2026-07-20 20:57:04,992 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-20 20:57:05,002 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-20 20:57:05,034 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-20 21:03:17,420 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-20 21:03:18,977 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-20 21:03:18,977 - INFO - Starting feature engineering pipeline...
+2026-07-20 21:03:19,341 - INFO - Feature engineering complete.
+2026-07-20 21:03:19,346 - INFO - Training production RandomForestRegressor model...
+2026-07-20 21:03:33,208 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260720_210333.json
+2026-07-20 21:03:33,209 - INFO - Model trained successfully and set to global variable.
+2026-07-21 12:06:01,963 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 12:06:04,096 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 12:06:04,097 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:06:04,640 - INFO - Feature engineering complete.
+2026-07-21 12:06:04,645 - INFO - Training production RandomForestRegressor model...
+2026-07-21 12:06:23,284 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260721_120623.json
+2026-07-21 12:06:23,285 - INFO - Model trained successfully and set to global variable.
+2026-07-21 12:08:46,229 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:08:46,243 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:08:46,250 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:21:37,480 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:21:37,515 - INFO - Data successfully ingested. Shape: (150, 9)
+2026-07-21 12:21:37,517 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:21:37,531 - INFO - Data successfully ingested. Shape: (150, 9)
+2026-07-21 12:21:37,532 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:21:37,733 - INFO - Feature engineering complete.
+2026-07-21 12:21:37,741 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:21:37,756 - INFO - Data successfully ingested. Shape: (150, 9)
+2026-07-21 12:21:37,757 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:21:37,927 - INFO - Feature engineering complete.
+2026-07-21 12:21:37,934 - INFO - Training production RandomForestRegressor model...
+2026-07-21 12:23:04,543 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:23:04,563 - INFO - Data successfully ingested. Shape: (150, 9)
+2026-07-21 12:23:04,565 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:23:04,580 - INFO - Data successfully ingested. Shape: (150, 9)
+2026-07-21 12:23:04,580 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:23:04,747 - INFO - Feature engineering complete.
+2026-07-21 12:23:04,754 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:23:04,769 - INFO - Data successfully ingested. Shape: (150, 9)
+2026-07-21 12:23:04,770 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:23:04,927 - INFO - Feature engineering complete.
+2026-07-21 12:23:04,932 - INFO - Training production RandomForestRegressor model...
+2026-07-21 12:38:32,660 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:38:32,684 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:38:32,685 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:38:32,708 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:38:32,708 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:38:32,770 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:38:32,788 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:38:32,789 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:48:32,823 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:48:32,841 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:48:32,842 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:48:32,862 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:48:32,863 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:48:33,046 - INFO - Feature engineering complete.
+2026-07-21 12:48:33,052 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:48:33,065 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:48:33,065 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:48:33,226 - INFO - Feature engineering complete.
+2026-07-21 12:48:33,232 - INFO - Training production RandomForestRegressor model...
+2026-07-21 12:48:51,457 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:48:51,471 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:48:51,472 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:48:51,490 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:48:51,491 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:48:51,864 - INFO - Feature engineering complete.
+2026-07-21 12:48:51,873 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 12:48:51,891 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 12:48:51,891 - INFO - Starting feature engineering pipeline...
+2026-07-21 12:48:52,055 - INFO - Feature engineering complete.
+2026-07-21 12:48:52,061 - INFO - Training production RandomForestRegressor model...
+2026-07-21 12:49:10,432 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260721_124910.json
+2026-07-21 12:49:10,432 - INFO - Model trained successfully and set to global variable.
+2026-07-21 13:00:08,770 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 13:00:08,793 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 13:00:08,794 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 13:00:08,811 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 13:00:08,812 - INFO - Starting feature engineering pipeline...
+2026-07-21 13:00:08,980 - INFO - Feature engineering complete.
+2026-07-21 13:00:08,989 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 13:00:09,007 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 13:00:09,007 - INFO - Starting feature engineering pipeline...
+2026-07-21 13:00:09,172 - INFO - Feature engineering complete.
+2026-07-21 13:00:09,178 - INFO - Training production RandomForestRegressor model...
+2026-07-21 13:00:29,166 - INFO - results saved locally to file: rmse used RFR after n_splits =10 20260721_130029.json
+2026-07-21 13:00:29,167 - INFO - Model trained successfully and set to global variable.
+2026-07-21 13:00:29,286 - INFO - Successfully generated 90-day forecast via API.
+2026-07-21 13:00:29,289 - INFO - Predictions saved locally to file: forecast_output_20260721_130029.json
+2026-07-21 16:03:18,041 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 16:03:20,383 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 16:03:20,383 - INFO - Starting feature engineering pipeline...
+2026-07-21 16:03:20,942 - INFO - Feature engineering complete.
+2026-07-21 16:03:20,948 - INFO - Training production RandomForestRegressor model...
+2026-07-21 16:03:41,328 - INFO - results saved locally to file: rmse used RFR after splits 20260721_160341.json
+2026-07-21 16:03:41,329 - INFO - Model trained successfully and set to global variable.
+2026-07-21 16:03:41,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2026-07-21 16:03:41,415 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 16:05:38,263 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 16:05:40,952 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 16:05:40,953 - INFO - Starting feature engineering pipeline...
+2026-07-21 16:05:41,629 - INFO - Feature engineering complete.
+2026-07-21 16:05:41,635 - INFO - Training production RandomForestRegressor model...
+2026-07-21 16:06:04,904 - INFO - results saved locally to file: rmse used RFR after splits 20260721_160604.json
+2026-07-21 16:06:04,905 - INFO - Model trained successfully and set to global variable.
+2026-07-21 16:06:04,933 - ERROR - API Call failed: Model has not been trained yet.
+2026-07-21 16:19:51,228 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 16:19:53,214 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 16:19:53,214 - INFO - Starting feature engineering pipeline...
+2026-07-21 16:19:53,710 - INFO - Feature engineering complete.
+2026-07-21 16:19:53,717 - INFO - Training production RandomForestRegressor model...
+2026-07-21 16:20:11,193 - INFO - results saved locally to file: rmse used RFR after splits 20260721_162011.json
+2026-07-21 16:20:11,194 - INFO - Model trained successfully and set to global variable.
+2026-07-21 16:20:11,218 - ERROR - API Call failed: Model has not been trained yet.
+2026-07-21 16:35:47,912 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 16:35:49,880 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 16:35:49,881 - INFO - Starting feature engineering pipeline...
+2026-07-21 16:35:50,429 - INFO - Feature engineering complete.
+2026-07-21 16:35:50,436 - INFO - Training production RandomForestRegressor model...
+2026-07-21 16:36:08,788 - INFO - results saved locally to file: rmse used RFR after splits 20260721_163608.json
+2026-07-21 16:36:08,788 - INFO - Model trained successfully and set to global variable.
+2026-07-21 16:36:08,852 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2026-07-21 16:36:08,853 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 17:02:28,162 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 17:02:30,284 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 17:02:30,285 - INFO - Starting feature engineering pipeline...
+2026-07-21 17:02:30,839 - INFO - Feature engineering complete.
+2026-07-21 17:02:30,845 - INFO - Training production RandomForestRegressor model...
+2026-07-21 17:02:50,620 - INFO - results saved locally to file: rmse used RFR after splits 20260721_170250.json
+2026-07-21 17:02:50,620 - INFO - Model trained successfully and set to global variable.
+2026-07-21 17:02:50,685 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+2026-07-21 17:02:50,686 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 17:03:24,869 - ERROR - API Call failed: Model has not been trained yet.
+2026-07-21 17:03:24,871 - INFO - 127.0.0.1 - - [21/Jul/2026 17:03:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-07-21 17:08:02,579 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 17:08:04,696 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 17:08:04,696 - INFO - Starting feature engineering pipeline...
+2026-07-21 17:08:05,229 - INFO - Feature engineering complete.
+2026-07-21 17:08:05,239 - INFO - Training production RandomForestRegressor model...
+2026-07-21 17:08:26,423 - INFO - results saved locally to file: rmse used RFR after splits 20260721_170826.json
+2026-07-21 17:08:26,423 - INFO - Model trained successfully and set to global variable.
+2026-07-21 17:08:26,463 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+2026-07-21 17:08:26,463 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 17:08:54,189 - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 230, in predict
+    summary = generate_executive_summary(
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 199, in generate_executive_summary
+    response = ollama.generate(
+TypeError: Client.generate() got an unexpected keyword argument 'tokens_limit'
+2026-07-21 17:08:54,194 - INFO - 127.0.0.1 - - [21/Jul/2026 17:08:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-07-21 17:19:46,070 - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 230, in predict
+    # 3. Generate Executive Summary
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 199, in generate_executive_summary
+    response = ollama.generate(
+TypeError: Client.generate() got an unexpected keyword argument 'tokens_limit'
+2026-07-21 17:19:46,073 - INFO - 127.0.0.1 - - [21/Jul/2026 17:19:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-07-21 17:22:31,838 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 17:22:33,592 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 17:22:33,593 - INFO - Starting feature engineering pipeline...
+2026-07-21 17:22:33,921 - INFO - Feature engineering complete.
+2026-07-21 17:22:33,928 - INFO - Training production RandomForestRegressor model...
+2026-07-21 17:22:51,194 - INFO - results saved locally to file: rmse used RFR after splits 20260721_172251.json
+2026-07-21 17:22:51,195 - INFO - Model trained successfully and set to global variable.
+2026-07-21 17:22:51,232 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+2026-07-21 17:22:51,232 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 17:23:06,956 - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 231, in predict
+    summary = generate_executive_summary(
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 199, in generate_executive_summary
+    response = ollama.generate(
+TypeError: Client.generate() got an unexpected keyword argument 'tokens_limit'
+2026-07-21 17:23:06,959 - INFO - 127.0.0.1 - - [21/Jul/2026 17:23:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-07-21 17:28:26,249 - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 231, in predict
+    # Convert incoming dictionary data into the correct shape for model input
+  File "C:\Users\hp\Downloads\IntelliShift Hackathon\IntelliShift Hackathon\AI modeling\capstone project IBM\app_core_logging.py", line 199, in generate_executive_summary
+    - Context: Month {summary_data['month']}, Quarter {summary_data['quarter']}
+TypeError: Client.generate() got an unexpected keyword argument 'tokens_limit'
+2026-07-21 17:28:26,251 - INFO - 127.0.0.1 - - [21/Jul/2026 17:28:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-07-21 17:29:11,695 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-21 17:29:14,601 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-21 17:29:14,602 - INFO - Starting feature engineering pipeline...
+2026-07-21 17:29:14,952 - INFO - Feature engineering complete.
+2026-07-21 17:29:14,957 - INFO - Training production RandomForestRegressor model...
+2026-07-21 17:29:31,769 - INFO - results saved locally to file: rmse used RFR after splits 20260721_172931.json
+2026-07-21 17:29:31,769 - INFO - Model trained successfully and set to global variable.
+2026-07-21 17:29:31,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+2026-07-21 17:29:31,797 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 17:30:08,009 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-21 17:30:08,009 - INFO - Successfully generated 90-day forecast via API.
+2026-07-21 17:30:08,011 - INFO - Predictions saved locally to file: forecast_output_20260721_173008.json
+2026-07-21 17:30:08,012 - INFO - 127.0.0.1 - - [21/Jul/2026 17:30:08] "POST /predict HTTP/1.1" 200 -
+2026-07-21 17:31:54,557 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-21 17:31:54,557 - INFO - Successfully generated 90-day forecast via API.
+2026-07-21 17:31:54,559 - INFO - Predictions saved locally to file: forecast_output_20260721_173154.json
+2026-07-21 17:31:54,560 - INFO - 127.0.0.1 - - [21/Jul/2026 17:31:54] "POST /predict HTTP/1.1" 200 -
+2026-07-21 17:56:49,263 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-21 17:56:49,263 - INFO - Successfully generated 90-day forecast via API.
+2026-07-21 17:56:49,266 - INFO - Predictions saved locally to file: forecast_output_20260721_175649.json
+2026-07-21 17:56:49,267 - INFO - 127.0.0.1 - - [21/Jul/2026 17:56:49] "POST /predict HTTP/1.1" 200 -
+2026-07-21 18:09:10,914 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-21 18:09:10,914 - INFO - Successfully generated 90-day forecast via API.
+2026-07-21 18:09:10,917 - INFO - Predictions saved locally to file: forecast_output_20260721_180910.json
+2026-07-21 18:09:10,918 - INFO - 127.0.0.1 - - [21/Jul/2026 18:09:10] "POST /predict HTTP/1.1" 200 -
