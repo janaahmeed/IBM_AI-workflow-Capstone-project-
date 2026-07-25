@@ -99,6 +99,7 @@ def engineer_features(df):
     
     feature_cols = ['rolling_mn_1Mon', 'rolling_std_1Mon', 'lag_30', 'lag_60', 'lag_90', 'month', 'quarter']
     logging.info("Feature engineering complete.")
+    daily_df[target_columns] = daily_df[target_columns].clip(lower=0)
     return daily_df[feature_cols], daily_df[target_columns], daily_df
 
 def train_production_model_RFR(df,X, Y):
@@ -114,9 +115,14 @@ def train_production_model_RFR(df,X, Y):
     for fold, (train_index, test_index) in enumerate(tscv.split(X), 1):
       x_train, x_test = X.iloc[train_index], X.iloc[test_index]
       y_train, y_test = Y.iloc[train_index], Y.iloc[test_index]
-    
-      model.fit(x_train, y_train)
+      y_train_clipped = np.maximum(0, y_train)
+#reduces extreme variance effects on loss functions.
+#  log1p transform : log(1 + y) to handle any 0 values safely
+      Y_train_log = np.log1p(y_train_clipped)
+      model.fit(x_train, Y_train_log)
       preds = model.predict(x_test)
+      preds = np.expm1(preds) #inverse of log transformation 
+
       rmse = root_mean_squared_error(y_test, preds)
       scores.append(rmse )
       print(f" Fold {fold} rmse: {rmse :.2f}")
@@ -233,6 +239,9 @@ def predict():
     
     # Generate prediction array
     prediction = GLOBAL_MODEL.predict(input_features)[0]
+    prediction = np.expm1(prediction)
+    #Zero-Clipping
+    prediction = np.maximum(0, prediction)
     
         # 3. Generate Executive Summary
     summary = generate_executive_summary(

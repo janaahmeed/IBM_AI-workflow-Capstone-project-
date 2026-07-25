@@ -359,3 +359,106 @@ TypeError: Client.generate() got an unexpected keyword argument 'tokens_limit'
 2026-07-21 18:09:10,914 - INFO - Successfully generated 90-day forecast via API.
 2026-07-21 18:09:10,917 - INFO - Predictions saved locally to file: forecast_output_20260721_180910.json
 2026-07-21 18:09:10,918 - INFO - 127.0.0.1 - - [21/Jul/2026 18:09:10] "POST /predict HTTP/1.1" 200 -
+2026-07-21 18:59:33,164 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 18:59:33,174 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 18:59:33,175 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 18:59:33,183 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 18:59:33,183 - INFO - Starting feature engineering pipeline...
+2026-07-21 18:59:33,288 - INFO - Feature engineering complete.
+2026-07-21 18:59:33,294 - INFO - Starting data ingestion from: mock_test_data.csv
+2026-07-21 18:59:33,304 - INFO - Data successfully ingested. Shape: (365, 9)
+2026-07-21 18:59:33,304 - INFO - Starting feature engineering pipeline...
+2026-07-21 18:59:33,396 - INFO - Feature engineering complete.
+2026-07-21 18:59:33,401 - INFO - Training production RandomForestRegressor model...
+2026-07-21 18:59:47,581 - INFO - results saved locally to file: rmse used RFR after splits 20260721_185947.json
+2026-07-21 18:59:47,581 - INFO - Model trained successfully and set to global variable.
+2026-07-21 18:59:49,777 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-21 18:59:49,777 - INFO - Successfully generated 90-day forecast via API.
+2026-07-21 18:59:49,781 - INFO - Predictions saved locally to file: forecast_output_20260721_185949.json
+2026-07-21 18:59:49,793 - INFO - results saved locally to file: pred_results_2026-07-21_18-59-49.json
+2026-07-25 14:07:13,472 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 14:07:15,517 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 14:07:15,517 - INFO - Starting feature engineering pipeline...
+2026-07-25 14:07:16,014 - INFO - Feature engineering complete.
+2026-07-25 14:07:16,021 - INFO - Training production RandomForestRegressor model...
+2026-07-25 14:07:33,544 - INFO - results saved locally to file: rmse used RFR after splits 20260725_140733.json
+2026-07-25 14:07:33,545 - INFO - Model trained successfully and set to global variable.
+2026-07-25 14:07:33,622 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.9:5001
+2026-07-25 14:07:33,622 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-25 14:08:27,526 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 14:08:27,527 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 14:08:27,533 - INFO - Predictions saved locally to file: forecast_output_20260725_140827.json
+2026-07-25 14:08:27,536 - INFO - 127.0.0.1 - - [25/Jul/2026 14:08:27] "POST /predict HTTP/1.1" 200 -
+2026-07-25 14:20:51,798 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 14:20:51,799 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 14:20:51,802 - INFO - Predictions saved locally to file: forecast_output_20260725_142051.json
+2026-07-25 14:20:51,802 - INFO - 127.0.0.1 - - [25/Jul/2026 14:20:51] "POST /predict HTTP/1.1" 200 -
+2026-07-25 14:33:03,719 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 14:33:03,720 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 14:33:03,723 - INFO - Predictions saved locally to file: forecast_output_20260725_143303.json
+2026-07-25 14:33:03,724 - INFO - 127.0.0.1 - - [25/Jul/2026 14:33:03] "POST /predict HTTP/1.1" 200 -
+2026-07-25 14:33:24,103 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 14:33:24,104 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 14:33:24,107 - INFO - Predictions saved locally to file: forecast_output_20260725_143324.json
+2026-07-25 14:33:24,107 - INFO - 127.0.0.1 - - [25/Jul/2026 14:33:24] "POST /predict HTTP/1.1" 200 -
+2026-07-25 14:33:33,619 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 14:33:33,619 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 14:33:33,622 - INFO - Predictions saved locally to file: forecast_output_20260725_143333.json
+2026-07-25 14:33:33,623 - INFO - 127.0.0.1 - - [25/Jul/2026 14:33:33] "POST /predict HTTP/1.1" 200 -
+2026-07-25 14:33:44,934 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 14:33:44,934 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 14:33:44,937 - INFO - Predictions saved locally to file: forecast_output_20260725_143344.json
+2026-07-25 14:33:44,938 - INFO - 127.0.0.1 - - [25/Jul/2026 14:33:44] "POST /predict HTTP/1.1" 200 -
+2026-07-25 14:33:56,667 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 14:33:56,667 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 14:33:56,670 - INFO - Predictions saved locally to file: forecast_output_20260725_143356.json
+2026-07-25 14:33:56,671 - INFO - 127.0.0.1 - - [25/Jul/2026 14:33:56] "POST /predict HTTP/1.1" 200 -
+2026-07-25 14:39:50,506 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 14:39:51,824 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 14:39:51,824 - INFO - Starting feature engineering pipeline...
+2026-07-25 14:39:52,167 - INFO - Feature engineering complete.
+2026-07-25 14:39:52,171 - INFO - Training production RandomForestRegressor model...
+2026-07-25 14:40:40,156 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 14:40:41,468 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 14:40:41,468 - INFO - Starting feature engineering pipeline...
+2026-07-25 14:40:41,810 - INFO - Feature engineering complete.
+2026-07-25 14:40:41,815 - INFO - Training production RandomForestRegressor model...
+2026-07-25 14:41:17,779 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 14:41:19,221 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 14:41:19,221 - INFO - Starting feature engineering pipeline...
+2026-07-25 14:41:19,587 - INFO - Feature engineering complete.
+2026-07-25 14:41:19,591 - INFO - Training production RandomForestRegressor model...
+2026-07-25 14:42:34,434 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 14:42:38,156 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 14:42:38,156 - INFO - Starting feature engineering pipeline...
+2026-07-25 14:42:38,877 - INFO - Feature engineering complete.
+2026-07-25 14:42:38,886 - INFO - Training production RandomForestRegressor model...
+2026-07-25 14:55:24,437 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 14:55:26,359 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 14:55:26,359 - INFO - Starting feature engineering pipeline...
+2026-07-25 14:55:26,677 - INFO - Feature engineering complete.
+2026-07-25 14:55:26,681 - INFO - Training production RandomForestRegressor model...
+2026-07-25 14:57:35,583 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 14:57:37,475 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 14:57:37,475 - INFO - Starting feature engineering pipeline...
+2026-07-25 14:57:38,074 - INFO - Feature engineering complete.
+2026-07-25 14:57:38,082 - INFO - Training production RandomForestRegressor model...
+2026-07-25 15:05:10,721 - INFO - Starting data ingestion from: C:\Users\hp\AppData\Local\Temp\all_training_data1.csv
+2026-07-25 15:05:12,136 - INFO - Data successfully ingested. Shape: (815011, 10)
+2026-07-25 15:05:12,137 - INFO - Starting feature engineering pipeline...
+2026-07-25 15:05:12,491 - INFO - Feature engineering complete.
+2026-07-25 15:05:12,532 - INFO - Training production RandomForestRegressor model...
+2026-07-25 15:05:33,268 - INFO - results saved locally to file: rmse used RFR after splits 20260725_150533.json
+2026-07-25 15:05:33,268 - INFO - Model trained successfully and set to global variable.
+2026-07-25 15:05:33,310 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.9:5001
+2026-07-25 15:05:33,310 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-25 15:08:54,884 - WARNING - Ollama generation offline/failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download. Utilizing fallback summary.
+2026-07-25 15:08:54,884 - INFO - Successfully generated 90-day forecast via API.
+2026-07-25 15:08:54,887 - INFO - Predictions saved locally to file: forecast_output_20260725_150854.json
+2026-07-25 15:08:54,888 - INFO - 127.0.0.1 - - [25/Jul/2026 15:08:54] "POST /predict HTTP/1.1" 200 -

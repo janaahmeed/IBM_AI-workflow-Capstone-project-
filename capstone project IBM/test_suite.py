@@ -15,7 +15,7 @@ class EnterpriseTimeSeriesTestSuite(unittest.TestCase):
         np.random.seed(42)
         cls.mock_csv_path = "mock_test_data.csv"
         
-        dates = pd.date_range(start="2026-01-01", periods=365, freq="D")
+        dates = pd.date_range(start="2017-01-01", periods=365, freq="D")
         df = pd.DataFrame({
             'country': ['United Kingdom'] * 120 + ['United States'] * 60 + ['Canada'] * 60 + ['Germany']*100 + ['France'] * 25,
             'invoice': range(1000, 1365),
