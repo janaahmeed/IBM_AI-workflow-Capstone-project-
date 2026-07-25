@@ -33,7 +33,7 @@ An enterprise 90-day revenue forecasting engine using Random Forest regression, 
 
 # End-to-End Automated Pipeline: Automates data ingestion, cleaning, and time-series aggregation to output structured daily and country-level business analytics.
 # Multi-Output Forecast Engine: Employs a multi-output RandomForestRegressor to project a continuous 90-day revenue vector simultaneously.
-#Mathematical Safeguards: Implements target log-transformation ($\text{log1p}/\text{expm1}$) to stabilize high variance in target variables, paired with zero-clipping post-processing ($\max(0, y)$) to ensure no negative revenue predictions hit production.
+#Mathematical Safeguards: Implements target log-transformation log1p , expm1 to stabilize high variance in target variables, paired with zero-clipping post-processing max(0, y)to ensure no negative revenue predictions hit production.
 #Robust Temporal Validation: Evaluates model stability across 20 temporal cross-validation folds using TimeSeriesSplit, auto-generating audit records in local JSON logs.
 #Generative AI Executive Synthesis: Integrates an offline-resilient local LLM pipeline (ollama / llama3) that converts prediction arrays into multi-metric executive summaries with natural language business recommendations.
 #Interactive Decoupled Architecture: Features a decoupled Flask REST API backend paired with a dynamic Streamlit frontend, supporting scenario modeling across rolling windows and seasonal execution months.  
